@@ -12,7 +12,7 @@ test("GET todos/1 example", async ({ request }) => {
   );
   const body = JSON.parse(await response.text());
   expect(response.status()).toBe(200);
-  expect(body.userId).toBe(1);
+  expect(body.userId).toBe
   expect(body.id).toBe(1);
   expect(body.title).toBe("delectus aut autem");
   expect(body.completed).toBe(false);
