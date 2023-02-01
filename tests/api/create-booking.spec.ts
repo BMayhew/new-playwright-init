@@ -30,5 +30,5 @@ test("Create a booking", async ({ request }) => {
   expect(body.booking.bookingdates.checkin).toBe("2018-01-01");
   expect(body.booking.bookingdates.checkout).toBe("2019-01-01");
   expect(body.booking.additionalneeds).toBe("Breakfast");
-  console.log("here is the body", body);
+  // console.log("here is the body", body);
 });
