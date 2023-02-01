@@ -42,7 +42,7 @@ jobs:
       
       - name: Install Webkit Dependencies
         run: |
-          sudo apt update\
+          sudo apt update &&\
           sudo apt-get install libvpx7\
             libevent-2.1-7\
             libopus0\
