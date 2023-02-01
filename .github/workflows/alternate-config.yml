@@ -40,6 +40,20 @@ jobs:
         if: steps.cache-playwright-browsers.outputs.cache-hit != 'true'
         run: npx playwright install --with-deps
       
+      - name: Install Webkit Dependencies
+        run: |
+          sudo apt-get install libvpx7\
+            libevent-2.1-7\
+            libopus0\
+            libwoff1\
+            libharfbuzz-icu0\
+            libgstreamer-plugins-base1.0-0\
+            libgstreamer-gl1.0-0\
+            libhyphen0\
+            libmanette-0.2-0\
+            libgles2\
+            gstreamer1.0-libav
+
       - name: Run Tests
         run: npx playwright test
         
