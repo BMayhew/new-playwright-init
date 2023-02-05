@@ -12,3 +12,8 @@ See .github/workflows/playwright.yml to see how to cache playwright dependencies
 
 As of 1/31/2023 I modified the github yml swapping the playwright caching and adding npm ci caching.
 
+## Expiremental Page object creator
+
+https://github.com/dnv-opensource/playwright-live-recorder
+
+I tested this but utilizing code gen and creating page objects off of that seemed about the same amount of work.

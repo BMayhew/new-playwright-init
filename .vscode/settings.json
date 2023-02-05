@@ -4,6 +4,7 @@
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
+  "playwright.env": { "PWDEBUG": "console" },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -18,5 +19,5 @@
   },
   "yaml.schemas": {
     "https://json.schemastore.org/github-workflow.json": "file:///Users/butch/dev/playground/new-playwright-init/.github/workflows/playwright.yml"
-  }
+  },
 }
